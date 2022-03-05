@@ -1,0 +1,61 @@
+header {
+  background-color: #121212;
+  position: relative;
+}
+header .container {
+  padding: 15px 0;
+  background-color: #121212;
+  position: relative;
+  z-index: 1;
+}
+
+/* Logo */
+.logo {
+  font-family: 'Fredoka One', cursive;
+  font-size: 32px;
+  padding: 5px 10px;
+  background-color: #F5C518;
+  border-radius: 5px;
+  color: #121212;
+  margin-left: 10px;
+  white-space: nowrap;
+}
+
+/* Menú respinsive */
+.btn-menu-responsive {
+  display: none;
+  margin-right: 10px;
+  font-size: 20px;
+}
+.menu-responsive {
+  display: none;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  transition: bottom 0.5s ease;
+}
+.menu-responsive.open {
+  bottom: -220px; /* ¿cómo hacer para que este valor no este quemado? */
+}
+.menu-responsive ul li {
+  border-top: 1px solid #000;
+}
+.menu-responsive ul li a {
+  display: block;
+  background-color: #121212;
+  border-radius: 0;
+  padding: 15px;
+}
+
+/* Menú mobile */
+@media screen and (max-width: 768px) {
+  header {
+    padding-bottom: 0;
+  }
+  .btn-menu-responsive {
+    display: block;
+  }
+  .menu-responsive {
+    display: block;
+  }
+}

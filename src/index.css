@@ -1,0 +1,71 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  src: url('../public/fonts/roboto/roboto-300.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../public/fonts/roboto/roboto-400.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  src: url('../public/fonts/roboto/roboto-500.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../public/fonts/roboto/roboto-700.woff2') format('woff2');
+}
+
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
+  color: #fff;
+  background-color: #000;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.container {
+  width: 1366px;
+  max-width: 100%;
+  margin: auto;
+}
+
+.btn {
+  font-size: 16px;
+  color: #fff;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+/* FLEXBOX */
+.flex {
+  display: flex;
+}
+.flex.justify-space-between {
+  justify-content: space-between;
+}
+.flex.align-center {
+  align-items: center;
+}
+.flex.direction-column {
+  flex-direction: column;
+}
