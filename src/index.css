@@ -1,38 +1,41 @@
 /* Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap");
 
 @font-face {
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 300;
-  src: url('../public/fonts/roboto/roboto-300.woff2') format('woff2');
+  src: url("../public/fonts/roboto/roboto-300.woff2") format("woff2");
 }
 @font-face {
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
-  src: url('../public/fonts/roboto/roboto-400.woff2') format('woff2');
+  src: url("../public/fonts/roboto/roboto-400.woff2") format("woff2");
 }
 @font-face {
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
-  src: url('../public/fonts/roboto/roboto-500.woff2') format('woff2');
+  src: url("../public/fonts/roboto/roboto-500.woff2") format("woff2");
 }
 @font-face {
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
-  src: url('../public/fonts/roboto/roboto-700.woff2') format('woff2');
+  src: url("../public/fonts/roboto/roboto-700.woff2") format("woff2");
+}
+
+* {
+  box-sizing: border-box;
 }
 
 body {
   margin: 0;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  box-sizing: border-box;
   color: #fff;
   background-color: #000;
 }
@@ -54,6 +57,14 @@ a {
   background-color: transparent;
   border: none;
   cursor: pointer;
+}
+.btn.btn-dark {
+  border: 1px solid #fff;
+  padding: 10px;
+  border-radius: 5px;
+}
+.btn.btn-dark:hover {
+  background-color: #252525;
 }
 
 /* FLEXBOX */

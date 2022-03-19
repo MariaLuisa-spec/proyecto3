@@ -11,17 +11,17 @@ header .container {
 
 /* Logo */
 .logo {
-  font-family: 'Fredoka One', cursive;
+  font-family: "Fredoka One", cursive;
   font-size: 32px;
   padding: 5px 10px;
-  background-color: #F5C518;
+  background-color: #f5c518;
   border-radius: 5px;
   color: #121212;
   margin-left: 10px;
   white-space: nowrap;
 }
 
-/* Menú respinsive */
+/* Menú responsive */
 .btn-menu-responsive {
   display: none;
   margin-right: 10px;
@@ -32,10 +32,10 @@ header .container {
   position: absolute;
   bottom: 0;
   width: 100%;
-  transition: bottom 0.5s ease;
+  transition: all 0.5s ease;
 }
 .menu-responsive.open {
-  bottom: -220px; /* ¿cómo hacer para que este valor no este quemado? */
+  bottom: -180px; /* ¿cómo hacer para que este valor no este quemado? */
 }
 .menu-responsive ul li {
   border-top: 1px solid #000;
@@ -45,6 +45,11 @@ header .container {
   background-color: #121212;
   border-radius: 0;
   padding: 15px;
+}
+
+.btn-login {
+  margin: 0 10px;
+  font-size: 20px;
 }
 
 /* Menú mobile */

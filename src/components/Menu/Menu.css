@@ -1,0 +1,28 @@
+.menu {
+  background-color: #121212;
+}
+
+/* Lista */
+ul.menu {
+  padding: 0;
+  margin: 0;
+}
+ul.menu li {
+  list-style: none;
+}
+ul.menu li a {
+  font-weight: bold;
+  font-size: 20px;
+  padding: 10px 15px;
+  border-radius: 5px;
+}
+ul.menu li a:hover {
+  background-color: #252525;
+}
+
+/* Menú mobile */
+@media screen and (max-width: 768px) {
+  .menu {
+    flex-direction: column;
+  }
+}

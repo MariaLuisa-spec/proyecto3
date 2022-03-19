@@ -2,6 +2,10 @@
   padding: 15px;
 }
 
+#peliculas .agregar-pelicula {
+  margin-bottom: 20px;
+}
+
 .grid-peliculas {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
